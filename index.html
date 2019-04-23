@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Single Line Converter</title>
+    <title>Multi Paragraph Converter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Multiline to single line text converter</h1>
-    <p>Simple app that converts a multi-paragraph text into a single line text with \n character.</p>
+    <h1>Multi-paragraph converter</h1>
+    <p>Simple app that converts a multi-paragraph text into a single string with \n character instead of breaks.</p>
     <div class="input-wrapper">
         <div class="multi-line-container">
-            <h2>Insert multiline text here</h2>
+            <h2>Insert multi-paragraph text here</h2>
             <textarea id="multiline"></textarea>
         </div>
         <div class="single-line-container">
-            <h2>Here's your text in a single line</h2>
+            <h2>Here's your text in a single string</h2>
             <textarea id="singleline"></textarea>
         </div>
     </div>
+    <span class="copied">Copied!</span>
     <script src="app.js"></script>
 </body>
 </html>
